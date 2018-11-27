@@ -1,0 +1,31 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.hiya.mqtt</groupId>
+    <artifactId>HiyaMqttServer</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <properties>
+        <spring.version>4.1.1.RELEASE</spring.version>
+    </properties>
+ 
+    <dependencies>
+        
+    <dependency>
+	    <groupId>org.fusesource.mqtt-client</groupId>
+	    <artifactId>mqtt-client</artifactId>
+	    <version>1.14</version>
+	</dependency>
+
+	<dependency>
+	    <groupId>org.eclipse.paho</groupId>
+	    <artifactId>org.eclipse.paho.client.mqttv3</artifactId>
+	    <version>1.1.1</version>
+	</dependency>
+	
+	<dependency>
+			<groupId>io.netty</groupId>
+			<artifactId>netty-all</artifactId>
+			<version>4.1.0.Final</version>
+		</dependency>
+
+    </dependencies>
+</project>
